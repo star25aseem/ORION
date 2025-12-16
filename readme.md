@@ -36,11 +36,6 @@ orion/
 ├── requirements.txt
 └── README.md
 
-yaml
-Copy code
-
----
-
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Create Virtual Environment
@@ -50,21 +45,17 @@ Activate:
 
 Windows
 
-bash
-Copy code
+
 venv\Scripts\activate
 Linux / macOS
 
-bash
-Copy code
+
 source venv/bin/activate
 2️⃣ Install Dependencies
-bash
-Copy code
+
 pip install -r requirements.txt
 3️⃣ Run ORION Demo
-bash
-Copy code
+python src/train.py
 streamlit run streamlit_app.py
 🧠 ORION Modes
 🛡️ Vision Defense Agent
