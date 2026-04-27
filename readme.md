@@ -21,7 +21,7 @@ This repository contains:
 ---
 
 ## 📁 Project Structure
-
+```
 orion/
 │
 ├── src/
@@ -35,28 +35,32 @@ orion/
 ├── model.pth # Trained MNIST model
 ├── requirements.txt
 └── README.md
-
+```
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Create Virtual Environment
 ```bash
 python -m venv venv
+```
 Activate:
 
 Windows
-
-
+```
 venv\Scripts\activate
+```
 Linux / macOS
-
-
+```
 source venv/bin/activate
-2️⃣ Install Dependencies
-
+```
+### 2️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
-3️⃣ Run ORION Demo
+```
+### 3️⃣ Run ORION Demo
+```bash
 python src/train.py
 streamlit run streamlit_app.py
+```
 🧠 ORION Modes
 🛡️ Vision Defense Agent
 Accepts handwritten digit images (MNIST-like)
